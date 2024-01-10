@@ -517,7 +517,7 @@ You cannot use --{option} and specify multiple packages at the same time. Do one
     if opts.strategies.is_empty() {
         opts.strategies = vec![
             Strategy::CrateMetaData,
-            Strategy::QuickInstall,
+            // Strategy::QuickInstall,
             Strategy::Compile,
         ];
     }
